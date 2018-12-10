@@ -27,7 +27,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(cors({
-  origin: 'https://study-buddies-api.herokuapp.com',
+  origin: 'https://study-buddies-app.herokuapp.com',
   credentials: true
 }));
 
